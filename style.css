@@ -356,11 +356,12 @@ body {
 #sm-banner .banner-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; 
+  flex-wrap: wrap;
   align-items: flex-start;
   text-align: center;
   background-image: url("img/banner/p21.jpg");
-  min-width: 580px;
+  width: 45%;
   height: 50vh;
   background-size: cover;
   background-position: top;
